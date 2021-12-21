@@ -1,0 +1,140 @@
+body {
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+.navWrapper {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 61px;
+  box-shadow: 0 0.5px #ececec;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  margin-right: 40px;
+}
+
+span {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  border: none;
+  width: 152px;
+  height: 40px;
+  padding: 8px 18px 8px 18px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.brandName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heroLeft {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  padding-left: 200px;
+  flex-direction: column;
+}
+
+.heroCopy {
+  line-height: 63px;
+  text-size-adjust: 100%;
+  font-weight: 800;
+  font-size: 56px;
+  padding: 28px 0px 28px 0px;
+  letter-spacing: -2.5px;
+  margin-bottom: 15px;
+}
+.subHeroCopy {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b6f76;
+  padding-right: 20px;
+  line-height: 24px;
+}
+.heroRight {
+  display: flex;
+  justify-content: flex-start;
+  width: 50vw;
+}
+
+.iconCard {
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 1px 2px 13px#929292;
+}
+
+.heroButton {
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  border: none;
+  width: 121px;
+  height: 48px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -10px #9d8eee;
+}
+
+.highlight1 {
+  margin: 0;
+  background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  color: #b664b0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.highlight2 {
+  margin: 0;
+  background: linear-gradient(135deg, #ffcc33 0%, #e233ff 100%);
+  color: #f18099;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* -webkit-box-decoration-break: clone; */
+}
+
+/* color:#B664B0;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone"><span data-slate-string="true">Ethereum</span></span> */
+
+/* <span class="Shared_textColor__S6Bpl" style="background:linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);color:#F18099;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone"><span data-slate-string="true">Solidity + Smart Contracts</span></span> */
